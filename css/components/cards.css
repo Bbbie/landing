@@ -1,0 +1,129 @@
+/* Your card CSS file */
+
+/* Category Card */
+.card-category {
+  height: 200px;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2)
+}
+
+.card-category h2 {
+  color: white;
+}
+
+/* Product Card */
+.card-product {
+  height: 120px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.1)
+}
+
+.card-product img {
+  height: 100%;
+  width: 120px;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  padding-right: 16px;
+}
+
+.card-product h2 {
+  margin: 0;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.card-product p {
+  margin: 0;
+  font-size: 12px;
+}
+
+
+/* Trip Card */
+.card-trip {
+  background-color: white;
+  position: relative;
+  border-radius: 2px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.1)
+}
+
+.card-trip .card-trip-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.card-trip .card-trip-infos {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 16px;
+}
+
+.card-trip .card-trip-infos h2 {
+  margin: 0;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.card-trip .card-trip-infos p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.card-trip .avatar {
+  width: 40px;
+  position: absolute;
+  bottom: 50px;
+  right: 20px;
+}
+
+
+/* Feature Card */
+.card-feature {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.1)
+}
+
+.card-feature h2 {
+  margin: 0;
+  font-size: 14pt;
+  margin-bottom: 4px;
+}
+
+.card-feature p {
+  margin: 0;
+  font-size: 12pt;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.cards-container .card-feature img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+
+/* color palette */
+/* #1C335B*/
+/* #3CA0FE */
+/* #00DFCB */
+/* #FF6666 */
+/* #EF2D56 */
+/* #F1E4E8 */
